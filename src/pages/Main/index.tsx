@@ -6,10 +6,10 @@ import { Container } from './styles';
 
 function Main() {
   return (
-    <Container>
+    <>
       <Header />
       <CarList />
-    </Container>
+    </>
   );
 }
 

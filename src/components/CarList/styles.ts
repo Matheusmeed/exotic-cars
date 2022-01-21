@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const Container = styled.ul`
   overflow-x: hidden;
-  height: 90vh;
+  height: 87vh;
   display: flex;
   justify-content: flex-start;
   margin-top: 84px;
   padding-top: 34px;
-  flex-wrap: wrap;
   padding-left: 10px;
   padding-right: 10px;
+  flex-wrap: wrap;
   justify-content: center;
 
   ::-webkit-scrollbar {
