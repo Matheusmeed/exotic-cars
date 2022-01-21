@@ -3,6 +3,8 @@ body {
   font-family: 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #313136;
+  overflow-y: hidden;
 }
 
 button {
