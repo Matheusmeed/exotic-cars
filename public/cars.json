@@ -5,8 +5,8 @@
       "brand": "Ferrari",
       "name": "CALIFORNIA",
       "price": 725,
-      "image": "https://uploaddeimagens.com.br/images/003/645/103/original/california.png?1643041808",
-      "logo": "https://live.staticflickr.com/65535/51840378948_2b460ae4b6_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/california.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/logoFerrari.png?raw=true",
       "colors": []
     },
     {
@@ -14,8 +14,8 @@
       "brand": "Porsche",
       "name": "911 TURBO S",
       "price": 725,
-      "image": "https://uploaddeimagens.com.br/images/003/645/124/original/turbos.png?1643042205",
-      "logo": "https://live.staticflickr.com/65535/51840998090_7922928bd9_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/turbos.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/logoPorsche.png",
       "colors": []
     },
     {
@@ -23,8 +23,8 @@
       "brand": "Porsche",
       "name": "911 TURBO S",
       "price": 725,
-      "image": "https://uploaddeimagens.com.br/images/003/645/127/original/turbo.png?1643042241",
-      "logo": "https://live.staticflickr.com/65535/51840998090_7922928bd9_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/turbo.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/logoPorsche.png",
       "colors": []
     },
     {
@@ -32,8 +32,8 @@
       "brand": "Porsche",
       "name": "911 TURBO S",
       "price": 725,
-      "image": "https://uploaddeimagens.com.br/images/003/645/129/original/turbog.png?1643042284",
-      "logo": "https://live.staticflickr.com/65535/51840998090_7922928bd9_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/turbog.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/logoPorsche.png",
       "colors": []
     },
     {
@@ -41,8 +41,8 @@
       "brand": "Porsche",
       "name": "911 GT3 RS",
       "price": 825,
-      "image": "https://uploaddeimagens.com.br/images/003/645/111/original/gt3.png?1643041867",
-      "logo": "https://live.staticflickr.com/65535/51840998090_7922928bd9_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/gt3.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/logoPorsche.png",
       "colors": []
     },
     {
@@ -50,8 +50,8 @@
       "brand": "Bentley",
       "name": "CONTINENTAL GT",
       "price": 825,
-      "image": "https://uploaddeimagens.com.br/images/003/645/105/original/continental.png?1643041827",
-      "logo": "https://live.staticflickr.com/65535/51840998095_237d8b4dd8_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/continental.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/Bentley-logo.png?raw=true",
       "colors": []
     },
     {
@@ -59,8 +59,8 @@
       "brand": "BMW",
       "name": "M1 COMPETITION",
       "price": 825,
-      "image": "https://uploaddeimagens.com.br/images/003/645/113/original/m1.png?1643041887",
-      "logo": "https://live.staticflickr.com/65535/51840998155_14ba5534e6_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/m1.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/bmw-logo.png?raw=true",
       "colors": []
     },
     {
@@ -68,8 +68,8 @@
       "brand": "Alfa Romeo",
       "name": "4C SPIDER",
       "price": 825,
-      "image": "https://uploaddeimagens.com.br/images/003/645/118/original/spider.png?1643041921",
-      "logo": "https://live.staticflickr.com/65535/51840622044_7af74381c2_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/spider.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/Alfa_Romeo-logo.png?raw=true",
       "colors": []
     },
     {
@@ -77,8 +77,8 @@
       "brand": "Mclaren",
       "name": "P1 GTR",
       "price": 925,
-      "image": "https://uploaddeimagens.com.br/images/003/645/117/original/p1.png?1643041903",
-      "logo": "https://live.staticflickr.com/65535/51839318782_c564aa6395_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/p1.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/Mclaren_PNG49.png?raw=true",
       "colors": []
     },
     {
@@ -86,8 +86,8 @@
       "brand": "Lamborghini",
       "name": "AVENTADOR",
       "price": 925,
-      "image": "https://uploaddeimagens.com.br/images/003/645/099/original/aventador.png?1643041768",
-      "logo": "https://live.staticflickr.com/65535/51841000150_5b6d4ff088_m.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/aventador.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/lamborghini_PNG10709.png?raw=true",
       "colors": []
     },
     {
@@ -95,8 +95,8 @@
       "brand": "Bugatti",
       "name": "VEYRON SPYDER",
       "price": 925,
-      "image": "https://uploaddeimagens.com.br/images/003/645/132/original/veyron.png?1643042315",
-      "logo": "https://live.staticflickr.com/65535/51839318872_d5fd4c7afa_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/veyron.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/1280px-Bugatti_logo.svg.png?raw=true",
       "colors": []
     },
     {
@@ -104,8 +104,8 @@
       "brand": "Chevrolet",
       "name": "CORVETTE",
       "price": 925,
-      "image": "https://uploaddeimagens.com.br/images/003/645/108/original/corvette.png?1643041843",
-      "logo": "https://live.staticflickr.com/65535/51840998270_38ee54d9a8_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/corvette.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/Chevrolet-Logo.png?raw=true",
       "colors": []
     },
     {
@@ -113,8 +113,8 @@
       "brand": "Ferrari",
       "name": "CALIFORNIA",
       "price": 725,
-      "image": "https://uploaddeimagens.com.br/images/003/645/088/original/california2.png?1643041560",
-      "logo": "https://live.staticflickr.com/65535/51840378948_2b460ae4b6_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/california2.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/logoFerrari.png?raw=trueg",
       "colors": []
     },
     {
@@ -122,8 +122,8 @@
       "brand": "Rolls-Royce",
       "name": "WRAITH",
       "price": 725,
-      "image": "https://uploaddeimagens.com.br/images/003/645/092/original/wraith.png?1643041670",
-      "logo": "https://live.staticflickr.com/65535/51840622194_6f7b5f1c60_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/wraith.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/Rolls-royce-logo.png?raw=true",
       "colors": []
     },
     {
@@ -131,8 +131,8 @@
       "brand": "Porsche",
       "name": "911 TURBO S",
       "price": 725,
-      "image": "https://uploaddeimagens.com.br/images/003/645/133/original/turbow.png?1643042330",
-      "logo": "https://live.staticflickr.com/65535/51840998090_7922928bd9_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/turbow.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/logoPorsche.png",
       "colors": []
     },
     {
@@ -140,8 +140,8 @@
       "brand": "Mercedes-benz",
       "name": "AMG GTS",
       "price": 725,
-      "image": "https://uploaddeimagens.com.br/images/003/645/100/original/amg.png?1643041790",
-      "logo": "https://live.staticflickr.com/65535/51840998290_a0324fdfa9_t.jpg",
+      "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/amg.png?raw=true",
+      "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/Mercedes-Logo.png?raw=true",
       "colors": []
     }
   ]
