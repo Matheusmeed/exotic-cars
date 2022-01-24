@@ -11,16 +11,16 @@ import {
   Dolar,
   OptionsButton,
 } from './styles';
-import carImg from '../../assets/cars/california.png';
 import { FaEllipsisH } from 'react-icons/fa';
+import { CarCardProps } from '../../@types';
 
-function CarCard() {
+function CarCard(props: CarCardProps) {
   return (
-    <Container>
+    <Container last={props.last} onClick={() => props.onClick()}>
       <CardHeader>
         <div>
-          <CarBrand>Ferrari</CarBrand>
-          <CarName>CALIFORNIA</CarName>
+          <CarBrand>{props.brand}</CarBrand>
+          <CarName>{props.name}</CarName>
         </div>
         <div>
           <OptionsButton>
@@ -29,7 +29,9 @@ function CarCard() {
         </div>
       </CardHeader>
       <CardBody>
-        <img src={carImg} alt='car'></img>
+        <div>
+          <img src={props.image} alt='car' width={240}></img>
+        </div>
       </CardBody>
       <DivCardFooter>
         <BookNow>Book Now</BookNow>
@@ -38,7 +40,7 @@ function CarCard() {
             <Dolar>$</Dolar>
           </DivDolar>
           <div>
-            <h1 style={{ display: 'inline' }}>725</h1>/day
+            <h1 style={{ display: 'inline' }}>{props.price}</h1>/day
           </div>
         </CardFooter>
       </DivCardFooter>

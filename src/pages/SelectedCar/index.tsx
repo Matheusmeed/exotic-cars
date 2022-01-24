@@ -16,17 +16,25 @@ import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import logo from '../../assets/icons/ferrari.png';
 import carro from '../../assets/cars/ferrari.png';
 import ColorCarList from '../../components/ColorCarList';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../store';
 
 function SelectedCar() {
+  const selectedCarInfo = useSelector(
+    (state: RootState) => state.stock.selectedCarInfo
+  );
+
   return (
     <>
       <Header />
       <Container>
         <CarHeader>
-          <img src={logo} alt='logo' height={90} />
+          <img src={selectedCarInfo.logo} alt='logo' height={90} />
           <InfoDiv>
-            <h1 style={{ margin: 0 }}>Ferrari California</h1>
-            <Price>$725/day</Price>
+            <h1
+              style={{ margin: 0 }}
+            >{`${selectedCarInfo.brand} ${selectedCarInfo.name}`}</h1>
+            <Price>${selectedCarInfo.price}/day</Price>
           </InfoDiv>
         </CarHeader>
         <CarDiv>

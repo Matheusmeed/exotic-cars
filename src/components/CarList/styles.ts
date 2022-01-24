@@ -5,8 +5,8 @@ export const Container = styled.ul`
   height: 87vh;
   display: flex;
   justify-content: flex-start;
-  margin-top: 84px;
-  padding-top: 34px;
+  margin-top: 13vh;
+  padding-top: 50px;
   padding-left: 10px;
   padding-right: 10px;
   flex-wrap: wrap;

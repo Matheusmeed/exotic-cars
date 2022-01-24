@@ -5,7 +5,7 @@
       "brand": "Ferrari",
       "name": "CALIFORNIA",
       "price": 725,
-      "image": "https://live.staticflickr.com/65535/51840523734_fb7ed53909_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/103/original/california.png?1643041808",
       "logo": "https://live.staticflickr.com/65535/51840378948_2b460ae4b6_t.jpg",
       "colors": []
     },
@@ -14,7 +14,7 @@
       "brand": "Porsche",
       "name": "911 TURBO S",
       "price": 725,
-      "image": "https://live.staticflickr.com/65535/51840594959_e3a63da4e4_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/124/original/turbos.png?1643042205",
       "logo": "https://live.staticflickr.com/65535/51840998090_7922928bd9_t.jpg",
       "colors": []
     },
@@ -23,7 +23,7 @@
       "brand": "Porsche",
       "name": "911 TURBO S",
       "price": 725,
-      "image": "https://live.staticflickr.com/65535/51840281718_821dbeba7f_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/127/original/turbo.png?1643042241",
       "logo": "https://live.staticflickr.com/65535/51840998090_7922928bd9_t.jpg",
       "colors": []
     },
@@ -32,7 +32,7 @@
       "brand": "Porsche",
       "name": "911 TURBO S",
       "price": 725,
-      "image": "https://live.staticflickr.com/65535/51840900625_08db24ae5e_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/129/original/turbog.png?1643042284",
       "logo": "https://live.staticflickr.com/65535/51840998090_7922928bd9_t.jpg",
       "colors": []
     },
@@ -41,7 +41,7 @@
       "brand": "Porsche",
       "name": "911 GT3 RS",
       "price": 825,
-      "image": "https://live.staticflickr.com/65535/51840523674_08d4b2195c_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/111/original/gt3.png?1643041867",
       "logo": "https://live.staticflickr.com/65535/51840998090_7922928bd9_t.jpg",
       "colors": []
     },
@@ -50,7 +50,7 @@
       "brand": "Bentley",
       "name": "CONTINENTAL GT",
       "price": 825,
-      "image": "https://live.staticflickr.com/65535/51840164196_e307eb6c27_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/105/original/continental.png?1643041827",
       "logo": "https://live.staticflickr.com/65535/51840998095_237d8b4dd8_t.jpg",
       "colors": []
     },
@@ -59,7 +59,7 @@
       "brand": "BMW",
       "name": "M1 COMPETITION",
       "price": 825,
-      "image": "https://live.staticflickr.com/65535/51840164116_b004223a53_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/113/original/m1.png?1643041887",
       "logo": "https://live.staticflickr.com/65535/51840998155_14ba5534e6_t.jpg",
       "colors": []
     },
@@ -68,7 +68,7 @@
       "brand": "Alfa Romeo",
       "name": "4C SPIDER",
       "price": 825,
-      "image": "https://live.staticflickr.com/65535/51840900660_7c01a395bc_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/118/original/spider.png?1643041921",
       "logo": "https://live.staticflickr.com/65535/51840622044_7af74381c2_t.jpg",
       "colors": []
     },
@@ -77,7 +77,7 @@
       "brand": "Mclaren",
       "name": "P1 GTR",
       "price": 925,
-      "image": "https://live.staticflickr.com/65535/51839221497_381bea39cf_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/117/original/p1.png?1643041903",
       "logo": "https://live.staticflickr.com/65535/51839318782_c564aa6395_t.jpg",
       "colors": []
     },
@@ -86,7 +86,7 @@
       "brand": "Lamborghini",
       "name": "AVENTADOR",
       "price": 925,
-      "image": "https://live.staticflickr.com/65535/51840523759_86e0994512_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/099/original/aventador.png?1643041768",
       "logo": "https://live.staticflickr.com/65535/51841000150_5b6d4ff088_m.jpg",
       "colors": []
     },
@@ -95,7 +95,7 @@
       "brand": "Bugatti",
       "name": "VEYRON SPYDER",
       "price": 925,
-      "image": "https://live.staticflickr.com/65535/51840900580_1fafd26829_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/132/original/veyron.png?1643042315",
       "logo": "https://live.staticflickr.com/65535/51839318872_d5fd4c7afa_t.jpg",
       "colors": []
     },
@@ -104,7 +104,7 @@
       "brand": "Chevrolet",
       "name": "CORVETTE",
       "price": 925,
-      "image": "https://live.staticflickr.com/65535/51840900730_5554327239_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/108/original/corvette.png?1643041843",
       "logo": "https://live.staticflickr.com/65535/51840998270_38ee54d9a8_t.jpg",
       "colors": []
     },
@@ -113,7 +113,7 @@
       "brand": "Ferrari",
       "name": "CALIFORNIA",
       "price": 725,
-      "image": "https://live.staticflickr.com/65535/51840900740_c45e36bef5_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/088/original/california2.png?1643041560",
       "logo": "https://live.staticflickr.com/65535/51840378948_2b460ae4b6_t.jpg",
       "colors": []
     },
@@ -122,7 +122,7 @@
       "brand": "Rolls-Royce",
       "name": "WRAITH",
       "price": 725,
-      "image": "https://live.staticflickr.com/65535/51840900575_630d6394dc_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/092/original/wraith.png?1643041670",
       "logo": "https://live.staticflickr.com/65535/51840622194_6f7b5f1c60_t.jpg",
       "colors": []
     },
@@ -131,7 +131,7 @@
       "brand": "Porsche",
       "name": "911 TURBO S",
       "price": 725,
-      "image": "https://live.staticflickr.com/65535/51840523589_82c98f980e_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/133/original/turbow.png?1643042330",
       "logo": "https://live.staticflickr.com/65535/51840998090_7922928bd9_t.jpg",
       "colors": []
     },
@@ -140,7 +140,7 @@
       "brand": "Mercedes-benz",
       "name": "AMG GTS",
       "price": 725,
-      "image": "https://live.staticflickr.com/65535/51840164246_0133139d29_m.jpg",
+      "image": "https://uploaddeimagens.com.br/images/003/645/100/original/amg.png?1643041790",
       "logo": "https://live.staticflickr.com/65535/51840998290_a0324fdfa9_t.jpg",
       "colors": []
     }

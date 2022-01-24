@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.li`
+export const Container = styled.li<{ last: boolean }>`
   list-style: none;
   width: 287px;
   height: 220px;
@@ -11,7 +11,7 @@ export const Container = styled.li`
   padding-left: 10px;
   margin-left: 12px;
   margin-left: 12px;
-  margin-bottom: 32px;
+  margin-bottom: ${(props) => (props.last ? '100px' : '32px')};
   cursor: pointer;
 
   :hover {
@@ -27,9 +27,15 @@ export const CardHeader = styled.div`
 
 export const CardBody = styled.div`
   width: 100%;
-  padding-top: 5px;
+  height: 90px;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
+
+  div {
+    display: flex;
+    align-items: center;
+  }
 `;
 
 export const CardFooter = styled.div`
