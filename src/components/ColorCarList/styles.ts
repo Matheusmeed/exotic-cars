@@ -4,8 +4,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 `;
 
 export const ArrowButton = styled.button`

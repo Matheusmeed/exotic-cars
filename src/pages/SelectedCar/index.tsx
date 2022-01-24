@@ -30,7 +30,7 @@ function SelectedCar() {
           </InfoDiv>
         </CarHeader>
         <CarDiv>
-          <div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
             <BackButton>
               <BsArrowLeft
                 style={{ marginRight: 9, fontSize: 20, color: '#313136' }}
