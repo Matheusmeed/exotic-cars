@@ -7,7 +7,11 @@
       "price": 725,
       "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/california.png?raw=true",
       "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/logoFerrari.png?raw=true",
-      "colors": []
+      "colors": [
+        { "color": "Red", "image": "", "id": "01" },
+        { "color": "Yellow", "image": "", "id": "02" },
+        { "color": "Gray", "image": "", "id": "03" }
+      ]
     },
     {
       "id": 2,
@@ -34,7 +38,11 @@
       "price": 725,
       "image": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/cars/turbog.png?raw=true",
       "logo": "https://github.com/Matheusmeed/exotic-cars/blob/master/src/assets/logos/logoPorsche.png?raw=true",
-      "colors": []
+      "colors": [
+        { "color": "Red", "image": "", "id": "01" },
+        { "color": "Yellow", "image": "", "id": "02" },
+        { "color": "Gray", "image": "", "id": "03" }
+      ]
     },
     {
       "id": 5,
