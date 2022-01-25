@@ -26,6 +26,7 @@ export const ArrowButton = styled.button`
 `;
 
 export const MainSquare = styled.div`
+  cursor: pointer;
   background: transparent linear-gradient(52deg, #a1a7f4 0%, #e6d3f1 100%) 0% 0%
     no-repeat padding-box;
   height: 170px;
@@ -42,6 +43,7 @@ export const MainSquare = styled.div`
 `;
 
 export const Square = styled.div`
+  cursor: pointer;
   background-color: #d4d4d4;
   height: 130px;
   width: 160px;

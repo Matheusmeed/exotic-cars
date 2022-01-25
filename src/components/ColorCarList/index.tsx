@@ -1,9 +1,13 @@
 import React from 'react';
 import { ArrowButton, Container, MainSquare, Square } from './styles';
-import Car from '../../assets/cars/ferrari.png';
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../store';
 
 function ColorCarList() {
+  const selectedCarInfo = useSelector(
+    (state: RootState) => state.stock.selectedCarInfo
+  );
   return (
     <Container>
       <div>
@@ -13,17 +17,17 @@ function ColorCarList() {
       </div>
       <div>
         <Square>
-          <img src={Car} alt='car' />
+          <img src={selectedCarInfo.colors[1].image} alt='car' />
         </Square>
       </div>
       <div>
         <MainSquare>
-          <img src={Car} alt='car' />
+          <img src={selectedCarInfo.colors[0].image} alt='car' />
         </MainSquare>
       </div>
       <div>
         <Square>
-          <img src={Car} alt='car' />
+          <img src={selectedCarInfo.colors[2].image} alt='car' />
         </Square>
       </div>
       <div>

@@ -61,6 +61,13 @@ export const CarImgDiv = styled.div`
 export const CarColorDiv = styled.div`
   height: 300px;
 
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   div h1,
   h3 {
     margin: 0;

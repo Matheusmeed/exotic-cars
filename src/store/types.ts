@@ -1,3 +1,5 @@
+import { IColors } from '../@types';
+
 type carType = {
   id: number;
   brand: string;
@@ -5,7 +7,7 @@ type carType = {
   price: number;
   image: string;
   logo: string;
-  colors: any[];
+  colors: IColors[];
 };
 
 interface SelectedCarInfoAction {

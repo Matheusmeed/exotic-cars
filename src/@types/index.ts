@@ -1,3 +1,9 @@
+export interface IColors {
+  color: string;
+  image: string;
+  id: string;
+}
+
 export interface Data {
   id: number;
   brand: string;
@@ -5,7 +11,7 @@ export interface Data {
   price: number;
   image: string;
   logo: string;
-  colors: any[];
+  colors: IColors[];
 }
 
 export interface CarsType {

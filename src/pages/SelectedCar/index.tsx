@@ -13,8 +13,6 @@ import {
   Price,
 } from './styles';
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
-import logo from '../../assets/icons/ferrari.png';
-import carro from '../../assets/cars/ferrari.png';
 import ColorCarList from '../../components/ColorCarList';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../store';
@@ -47,7 +45,11 @@ function SelectedCar() {
             </BackButton>
           </div>
           <CarImgDiv>
-            <img src={carro} alt='carro' width={600} />
+            <img
+              src={selectedCarInfo.colors[0].image}
+              alt='carro'
+              width={600}
+            />
             <div>
               <BookButton>
                 Book now{' '}
@@ -59,8 +61,8 @@ function SelectedCar() {
           </CarImgDiv>
           <CarColorDiv>
             <div>
-              <h1>01</h1>
-              <h3>Red</h3>
+              <h1>{selectedCarInfo.colors[0].id}</h1>
+              <h3>{selectedCarInfo.colors[0].color}</h3>
             </div>
           </CarColorDiv>
         </CarDiv>
