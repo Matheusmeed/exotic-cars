@@ -23,6 +23,7 @@ function CarList() {
       {cars?.data.map((car) => {
         return (
           <CarCard
+            key={car.id}
             onClick={() => {
               dispatch(
                 setSelectedCar({

@@ -30,10 +30,31 @@ export const CarHeader = styled.div`
   align-items: center;
   padding-top: 35px;
   padding-left: 60px;
+
+  img {
+    height: 90px;
+  }
+
+  @media (max-width: 800px) {
+    padding-top: 20px;
+    padding-left: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    img {
+      height: 70px;
+    }
+  }
 `;
 
 export const InfoDiv = styled.div`
   margin-left: 40px;
+
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 1.3em;
+    }
+  }
 `;
 
 export const Price = styled.h1`
@@ -42,9 +63,9 @@ export const Price = styled.h1`
 `;
 
 export const CarDiv = styled.div`
-  justify-content: center;
-  display: flex;
+  justify-content: space-between;
   align-items: center;
+  display: flex;
 
   div {
     width: 30%;
@@ -56,6 +77,20 @@ export const CarImgDiv = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  div {
+    margin-top: 5px;
+  }
+
+  img {
+    margin-bottom: 3px;
+  }
+
+  @media (max-width: 800px) {
+    img {
+      width: 300px;
+    }
+  }
 `;
 
 export const CarColorDiv = styled.div`
@@ -91,6 +126,10 @@ export const BackButton = styled.button`
   :hover {
     background-color: white;
   }
+
+  @media (max-width: 900px) {
+    display: none;
+  }
 `;
 
 export const BookButton = styled.button`
@@ -105,6 +144,10 @@ export const BookButton = styled.button`
   box-shadow: 0px 5px 10px #0000001a;
   border-radius: 25px;
   color: white;
+  width: 130px;
+
+  @media (max-width: 800px) {
+  }
 
   :hover {
     background-color: #313136af;

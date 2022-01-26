@@ -23,14 +23,19 @@ export const ArrowButton = styled.button`
   :hover {
     background-color: #313136af;
   }
+
+  @media (max-width: 800px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 `;
 
 export const MainSquare = styled.div`
   cursor: pointer;
   background: transparent linear-gradient(52deg, #a1a7f4 0%, #e6d3f1 100%) 0% 0%
     no-repeat padding-box;
-  height: 170px;
   width: 200px;
+  height: 170px;
   border-radius: 10px;
   margin-left: 40px;
   margin-right: 40px;
@@ -39,6 +44,17 @@ export const MainSquare = styled.div`
 
   img {
     width: 260px;
+  }
+
+  @media (max-width: 700px) {
+    width: 100px;
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    img {
+      width: 120px;
+    }
   }
 `;
 
@@ -55,5 +71,9 @@ export const Square = styled.div`
 
   img {
     width: 200px;
+  }
+
+  @media (max-width: 930px) {
+    display: none;
   }
 `;

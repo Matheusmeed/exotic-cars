@@ -18,6 +18,11 @@ export const Container = styled.li<{ last: boolean }>`
     background: transparent linear-gradient(52deg, #a1a7f4 0%, #e6d3f1 100%) 0%
       0% no-repeat padding-box;
   }
+
+  @media (max-width: 800px) {
+    height: 220px;
+    width: 200px;
+  }
 `;
 
 export const CardHeader = styled.div`
@@ -35,6 +40,16 @@ export const CardBody = styled.div`
   div {
     display: flex;
     align-items: center;
+  }
+
+  div img {
+    width: 240px;
+  }
+
+  @media (max-width: 800px) {
+    div img {
+      width: 200px;
+    }
   }
 `;
 

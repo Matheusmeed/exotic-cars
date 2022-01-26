@@ -27,7 +27,7 @@ function SelectedCar() {
       <Header />
       <Container>
         <CarHeader>
-          <img src={selectedCarInfo.logo} alt='logo' height={90} />
+          <img src={selectedCarInfo.logo} alt='logo' />
           <InfoDiv>
             <h1
               style={{ margin: 0 }}
@@ -45,11 +45,7 @@ function SelectedCar() {
             </BackButton>
           </div>
           <CarImgDiv>
-            <img
-              src={selectedCarInfo.colors[0].image}
-              alt='carro'
-              width={600}
-            />
+            <img src={selectedCarInfo.colors[0].image} alt='carro' />
             <div>
               <BookButton>
                 Book now{' '}

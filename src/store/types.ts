@@ -14,8 +14,12 @@ interface SelectedCarInfoAction {
   payload: carType;
 }
 
+interface CarColorAction {
+  payload: string;
+}
+
 interface IInitialState {
   selectedCarInfo: carType;
 }
 
-export type { IInitialState, SelectedCarInfoAction };
+export type { IInitialState, SelectedCarInfoAction, CarColorAction };

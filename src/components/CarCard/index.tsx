@@ -30,7 +30,7 @@ function CarCard(props: CarCardProps) {
       </CardHeader>
       <CardBody>
         <div>
-          <img src={props.image} alt='car' width={240}></img>
+          <img src={props.image} alt='car'></img>
         </div>
       </CardBody>
       <DivCardFooter>
