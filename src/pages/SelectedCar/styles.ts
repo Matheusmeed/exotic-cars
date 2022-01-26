@@ -84,11 +84,15 @@ export const CarImgDiv = styled.div`
 
   img {
     margin-bottom: 3px;
+    max-height: 250px;
+    min-height: 250px;
   }
 
   @media (max-width: 800px) {
     img {
       width: 300px;
+      max-height: none;
+      min-height: auto;
     }
   }
 `;
@@ -145,9 +149,6 @@ export const BookButton = styled.button`
   border-radius: 25px;
   color: white;
   width: 130px;
-
-  @media (max-width: 800px) {
-  }
 
   :hover {
     background-color: #313136af;

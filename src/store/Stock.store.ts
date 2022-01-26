@@ -16,7 +16,10 @@ const stock = createSlice({
       newArr.forEach((color) => {
         if (color.id === action.payload) {
           newArr.splice(newArr.indexOf(color), 1);
-          newArr.unshift(color);
+          newArr.splice(Math.round(newArr.length / 2), 0, color);
+        } else if (newArr.indexOf(color) === action.payload) {
+          newArr.splice(newArr.indexOf(color), 1);
+          newArr.splice(Math.round(newArr.length / 2), 0, color);
         }
       });
 

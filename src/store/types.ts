@@ -15,7 +15,7 @@ interface SelectedCarInfoAction {
 }
 
 interface CarColorAction {
-  payload: string;
+  payload: string | number;
 }
 
 interface IInitialState {

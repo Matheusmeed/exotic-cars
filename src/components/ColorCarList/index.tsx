@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowButton, Container, MainSquare, Square } from './styles';
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import { useDispatch, useSelector } from 'react-redux';
@@ -10,24 +9,44 @@ function ColorCarList() {
   const selectedCarInfo = useSelector(
     (state: RootState) => state.stock.selectedCarInfo
   );
+
+  function renderSquare() {
+    return selectedCarInfo.colors.map((el) => {
+      if (
+        selectedCarInfo.colors.indexOf(el) ===
+        Math.round(selectedCarInfo.colors.length / 2 - 1)
+      ) {
+        return (
+          <div key={el.id}>
+            <MainSquare>
+              <img src={el.image} alt='car' />
+            </MainSquare>
+          </div>
+        );
+      } else {
+        return (
+          <div key={el.id}>
+            <Square onClick={() => dispatch(setCarColor(el.id))}>
+              <img src={el.image} alt='car' />
+            </Square>
+          </div>
+        );
+      }
+    });
+  }
+
   return (
     <Container>
       <div>
-        <ArrowButton onClick={() => dispatch(setCarColor('02'))}>
+        <ArrowButton
+          onClick={() => {
+            dispatch(setCarColor(0));
+          }}
+        >
           <BsArrowLeft style={{ fontSize: 20, color: 'white' }} />
         </ArrowButton>
       </div>
-      {selectedCarInfo.colors.length &&
-        selectedCarInfo.colors.forEach((color) => {
-          return (
-            <div>
-              oi
-              {/* <Square onClick={() => dispatch(setCarColor(color.id))}>
-            <img src={color.image} alt='car' />
-          </Square> */}
-            </div>
-          );
-        })}
+      {renderSquare()}
       {/* <div>
         <Square onClick={() => dispatch(setCarColor('01'))}>
           <img src={selectedCarInfo.colors[2].image} alt='car' />
@@ -44,7 +63,11 @@ function ColorCarList() {
         </Square>
       </div> */}
       <div>
-        <ArrowButton onClick={() => console.log('oi')}>
+        <ArrowButton
+          onClick={() => {
+            dispatch(setCarColor(2));
+          }}
+        >
           <BsArrowRight style={{ fontSize: 20, color: 'white' }} />
         </ArrowButton>
       </div>

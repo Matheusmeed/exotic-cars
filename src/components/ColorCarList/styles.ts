@@ -46,7 +46,7 @@ export const MainSquare = styled.div`
     width: 260px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
     width: 100px;
     height: 70px;
     margin-left: 20px;

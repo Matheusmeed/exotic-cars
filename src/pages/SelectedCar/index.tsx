@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../../components/Header';
 import './styles';
 import {
@@ -45,7 +45,14 @@ function SelectedCar() {
             </BackButton>
           </div>
           <CarImgDiv>
-            <img src={selectedCarInfo.colors[0].image} alt='carro' />
+            <img
+              src={
+                selectedCarInfo.colors[
+                  Math.round(selectedCarInfo.colors.length / 2 - 1)
+                ].image
+              }
+              alt='carro'
+            />
             <div>
               <BookButton>
                 Book now{' '}
@@ -57,8 +64,20 @@ function SelectedCar() {
           </CarImgDiv>
           <CarColorDiv>
             <div>
-              <h1>{selectedCarInfo.colors[0].id}</h1>
-              <h3>{selectedCarInfo.colors[0].color}</h3>
+              <h1>
+                {
+                  selectedCarInfo.colors[
+                    Math.round(selectedCarInfo.colors.length / 2 - 1)
+                  ].id
+                }
+              </h1>
+              <h3>
+                {
+                  selectedCarInfo.colors[
+                    Math.round(selectedCarInfo.colors.length / 2 - 1)
+                  ].color
+                }
+              </h3>
             </div>
           </CarColorDiv>
         </CarDiv>
