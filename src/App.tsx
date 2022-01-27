@@ -1,5 +1,4 @@
 import { GlobalStyle } from './shared/styles/Global';
-
 import { BrowserRouter } from 'react-router-dom';
 import Routes from './routes';
 import { Provider } from 'react-redux';

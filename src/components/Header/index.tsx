@@ -1,10 +1,8 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './styles';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   Button,
   ButtonTitle,
-  Dropdown,
   HeaderDiv,
   Icon,
   SearchButton,
@@ -15,19 +13,14 @@ import {
 } from './styles';
 import locationIcon from '../../assets/icons/location.svg';
 import calendarIcon from '../../assets/icons/calendar.svg';
-import { AiOutlineMenu } from 'react-icons/ai';
 import searchIcon from '../../assets/icons/search.svg';
+import { Dropdown, DropdownButton } from 'react-bootstrap';
+import { BsSearch } from 'react-icons/bs';
 
 function Header() {
   const navigate = useNavigate();
   return (
     <>
-      {/* <Dropdown>
-        <span>here</span>
-        <div className='dropdown-content'>
-          <p>Hello World!</p>
-        </div>
-      </Dropdown> */}
       <HeaderDiv>
         <ButtonTitle onClick={() => navigate('/')}>
           <Title>EXOTIC</Title> <Title2>CARS</Title2>
@@ -54,6 +47,15 @@ function Header() {
           <Sign>Sign up</Sign>
           <Sign border={true}>Sign in</Sign>
         </div>
+
+        <DropdownButton align='end' title='' id='dropdown-menu-align-end'>
+          <Dropdown.Item eventKey='1'>Sign up</Dropdown.Item>
+          <Dropdown.Item eventKey='2'>Sign in</Dropdown.Item>
+          <Dropdown.Divider />
+          <Dropdown.Item eventKey='3'>
+            Search <BsSearch size={13} />
+          </Dropdown.Item>
+        </DropdownButton>
       </HeaderDiv>
     </>
   );

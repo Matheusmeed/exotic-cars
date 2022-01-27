@@ -12,12 +12,14 @@ export const HeaderDiv = styled.header`
   box-shadow: 0px 10px 30px #0000001a;
 
   #dropdown-menu-align-end {
-    margin: 0;
-    padding: 0;
-    visibility: hidden;
     display: none;
+    color: white;
     background-color: #7b89f4;
-    border-color: #7b89f4;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+  }
+  #dropdown-menu-align-end:hover {
+    background-color: #7b89f480;
   }
 
   @media (max-width: 880px) {
