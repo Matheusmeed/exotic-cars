@@ -11,6 +11,15 @@ export const HeaderDiv = styled.header`
   align-items: center;
   box-shadow: 0px 10px 30px #0000001a;
 
+  #dropdown-menu-align-end {
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    display: none;
+    background-color: #7b89f4;
+    border-color: #7b89f4;
+  }
+
   @media (max-width: 880px) {
     padding-left: 10%;
   }
@@ -78,21 +87,4 @@ export const Sign = styled.button<{ border?: boolean }>`
   border: ${(props) => (props.border ? '2px solid #7b89f4' : 'none')};
   margin-right: 4px;
   margin-left: 4px;
-`;
-
-export const Dropdown = styled.div`
-  position: relative;
-  left: 20;
-  top: 20;
-  display: inline-block;
-
-  .dropdown-content {
-    display: block;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
-  }
 `;
