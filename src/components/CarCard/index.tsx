@@ -34,7 +34,9 @@ function CarCard(props: CarCardProps) {
         </div>
       </CardBody>
       <DivCardFooter>
-        <BookNow>Book Now</BookNow>
+        <div>
+          <BookNow>Book Now</BookNow>
+        </div>
         <CardFooter>
           <DivDolar>
             <Dolar>$</Dolar>

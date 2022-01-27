@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { CarsType } from '../../@types';
 import { setSelectedCar } from '../../store/Stock.store';
 import CarCard from '../CarCard';
-import { Container } from './styles';
+import group from '../../assets/icons/group.svg';
+import { Container, ScrollButton } from './styles';
 
 function CarList() {
   const dispatch = useDispatch();
@@ -47,6 +48,14 @@ function CarList() {
           />
         );
       })}
+      <ScrollButton
+        onClick={() => {
+          console.log('oi');
+        }}
+        src={group}
+        alt='scroll up'
+        width={100}
+      />
     </Container>
   );
 }

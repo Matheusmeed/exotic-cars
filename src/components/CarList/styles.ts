@@ -4,13 +4,12 @@ export const Container = styled.ul`
   overflow-x: hidden;
   height: 87vh;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   margin-top: 13vh;
   padding-top: 50px;
   padding-left: 10px;
   padding-right: 10px;
   flex-wrap: wrap;
-  justify-content: center;
 
   ::-webkit-scrollbar {
     width: 7px;
@@ -27,4 +26,11 @@ export const Container = styled.ul`
     border-radius: 0px;
     box-shadow: inset 0px 0px 0px 0px #f0f0f0;
   }
+`;
+
+export const ScrollButton = styled.img`
+  cursor: pointer;
+  position: absolute;
+  bottom: 70px;
+  right: 70px;
 `;

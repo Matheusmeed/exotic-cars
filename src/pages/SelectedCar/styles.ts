@@ -137,6 +137,7 @@ export const BackButton = styled.button`
 `;
 
 export const BookButton = styled.button`
+  font-size: 0.8em;
   border: none;
   display: flex;
   align-items: center;

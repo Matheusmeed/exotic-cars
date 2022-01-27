@@ -7,10 +7,10 @@ export const Container = styled.li<{ last: boolean }>`
   background: #f8f8fa 0% 0% no-repeat padding-box;
   border-radius: 20px;
   padding-top: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-left: 12px;
-  margin-left: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-left: 13px;
+  margin-right: 13px;
   margin-bottom: ${(props) => (props.last ? '100px' : '32px')};
   cursor: pointer;
 
@@ -19,7 +19,7 @@ export const Container = styled.li<{ last: boolean }>`
       0% no-repeat padding-box;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 970px) {
     height: 220px;
     width: 200px;
   }
@@ -46,9 +46,15 @@ export const CardBody = styled.div`
     width: 240px;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 970px) {
     div img {
-      width: 200px;
+      width: 180px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    div img {
+      width: 160px;
     }
   }
 `;
@@ -58,19 +64,32 @@ export const CardFooter = styled.div`
   justify-content: flex-end;
   align-items: flex-start;
   padding-right: 8px;
+
+  div h1 {
+    font-size: 1.5em;
+  }
+
+  @media (max-width: 500px) {
+    div h1 {
+      font-size: 1.2em;
+    }
+  }
 `;
 
 export const DivCardFooter = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 15px;
 `;
 
 export const CarBrand = styled.h4`
+  font-size: 1.2em;
   margin: 0;
 `;
 
 export const CarName = styled.h4`
+  font-size: 1em;
   font-weight: 400;
   margin: 0;
 `;
@@ -88,11 +107,18 @@ export const DivDolar = styled.div`
 `;
 
 export const Dolar = styled.h4`
+  font-size: 1em;
   display: inline;
   margin: 0;
 `;
 
 export const BookNow = styled.h4`
+  font-size: 1em;
   color: #f8f8fa;
   padding-left: 20px;
+  padding-top: 10px;
+
+  @media (max-width: 500px) {
+    font-size: 0.8em;
+  }
 `;

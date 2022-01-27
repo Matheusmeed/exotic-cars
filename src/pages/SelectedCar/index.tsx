@@ -36,7 +36,7 @@ function SelectedCar() {
           </InfoDiv>
         </CarHeader>
         <CarDiv>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
             <BackButton>
               <BsArrowLeft
                 style={{ marginRight: 9, fontSize: 20, color: '#313136' }}
@@ -55,7 +55,7 @@ function SelectedCar() {
             />
             <div>
               <BookButton>
-                Book now{' '}
+                Book now
                 <BsArrowRight
                   style={{ marginLeft: 9, fontSize: 20, color: 'white' }}
                 />

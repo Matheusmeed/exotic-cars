@@ -48,7 +48,7 @@ export const Title = styled.h2`
 
 export const Title2 = styled.h2`
   display: inline;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.1em;
 `;
 
@@ -63,7 +63,8 @@ export const SearchDiv = styled.div`
   justify-content: space-between;
   padding-left: 6px;
   padding-right: 6px;
-  margin-left: 10%;
+  margin-left: 5%;
+
   @media (max-width: 960px) {
     display: none;
   }
@@ -88,9 +89,14 @@ export const SearchButton = styled.button`
   border: none;
   border-radius: 15px;
   box-shadow: 0px 0px 3px 1px #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const SignDiv = styled.div`
+  margin-right: -100px;
+
   @media (max-width: 960px) {
     display: none;
   }

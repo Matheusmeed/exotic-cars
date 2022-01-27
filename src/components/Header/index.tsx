@@ -56,7 +56,7 @@ function Header() {
           <Dropdown.Item eventKey='2'>Sign in</Dropdown.Item>
           <Dropdown.Divider />
           <Dropdown.Item eventKey='3'>
-            Search <BsSearch size={13} />
+            Search <BsSearch size={13} color='#7B89F4' />
           </Dropdown.Item>
         </DropdownButton>
       </HeaderDiv>
