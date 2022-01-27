@@ -8,6 +8,7 @@ import {
   SearchButton,
   SearchDiv,
   Sign,
+  SignDiv,
   Title,
   Title2,
 } from './styles';
@@ -25,6 +26,7 @@ function Header() {
         <ButtonTitle onClick={() => navigate('/')}>
           <Title>EXOTIC</Title> <Title2>CARS</Title2>
         </ButtonTitle>
+
         <SearchDiv>
           <Button>
             <Icon src={locationIcon} alt='location' /> North Carolina, NC 90025
@@ -43,10 +45,11 @@ function Header() {
             <img src={searchIcon} alt='search' />
           </SearchButton>
         </SearchDiv>
-        <div>
+
+        <SignDiv>
           <Sign>Sign up</Sign>
           <Sign border={true}>Sign in</Sign>
-        </div>
+        </SignDiv>
 
         <DropdownButton align='end' title='' id='dropdown-menu-align-end'>
           <Dropdown.Item eventKey='1'>Sign up</Dropdown.Item>

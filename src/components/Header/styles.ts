@@ -22,14 +22,21 @@ export const HeaderDiv = styled.header`
     background-color: #7b89f480;
   }
 
-  @media (max-width: 880px) {
-    padding-left: 10%;
+  @media (max-width: 960px) {
+    #dropdown-menu-align-end {
+      display: inline;
+    }
   }
 `;
 
 export const ButtonTitle = styled.button`
   background: none;
   border: none;
+  padding-left: 5px;
+
+  @media (max-width: 960px) {
+    margin-left: -20px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -56,6 +63,10 @@ export const SearchDiv = styled.div`
   justify-content: space-between;
   padding-left: 6px;
   padding-right: 6px;
+  margin-left: 10%;
+  @media (max-width: 960px) {
+    display: none;
+  }
 `;
 
 export const Button = styled.button`
@@ -77,6 +88,12 @@ export const SearchButton = styled.button`
   border: none;
   border-radius: 15px;
   box-shadow: 0px 0px 3px 1px #dadada;
+`;
+
+export const SignDiv = styled.div`
+  @media (max-width: 960px) {
+    display: none;
+  }
 `;
 
 export const Sign = styled.button<{ border?: boolean }>`
