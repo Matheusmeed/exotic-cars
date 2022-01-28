@@ -1,4 +1,7 @@
-import styled from 'styled-components';
+import { fadeIn, merge, pulse } from 'react-animations';
+import styled, { keyframes } from 'styled-components';
+
+const pulseAnimation = keyframes`${merge(pulse, fadeIn)}`;
 
 export const Container = styled.li`
   list-style: none;
@@ -13,6 +16,7 @@ export const Container = styled.li`
   margin-right: 13px;
   margin-bottom: 32px;
   cursor: pointer;
+  animation: 0.5s ${pulseAnimation};
 
   :hover {
     background: transparent linear-gradient(52deg, #a1a7f4 0%, #e6d3f1 100%) 0%
