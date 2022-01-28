@@ -1,5 +1,3 @@
-import { IColors } from '../@types';
-
 type carType = {
   id: number;
   brand: string;

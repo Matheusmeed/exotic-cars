@@ -11,10 +11,6 @@ function ColorCarList() {
     (state: RootState) => state.stock.selectedCarInfo
   );
 
-  useEffect(() => {
-    console.log(selectedCarInfo.colors);
-  }, [selectedCarInfo.colors]);
-
   function renderSquare() {
     return selectedCarInfo.colors.map((el) => {
       if (
