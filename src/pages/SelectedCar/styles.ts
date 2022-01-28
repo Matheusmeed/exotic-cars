@@ -8,6 +8,8 @@ export const Container = styled.div`
   margin-top: 14vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+
   ::-webkit-scrollbar {
     width: 7px;
   }
