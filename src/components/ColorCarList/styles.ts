@@ -1,4 +1,7 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+import { pulse, merge, fadeIn } from 'react-animations';
+
+const bounceAnimation = keyframes`${merge(pulse, fadeIn)}`;
 
 export const Container = styled.div`
   display: flex;
@@ -41,6 +44,7 @@ export const MainSquare = styled.div`
   margin-right: 40px;
   display: flex;
   align-items: center;
+  animation: 0.5s ${bounceAnimation};
 
   img {
     width: 260px;
