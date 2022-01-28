@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.li<{ last: boolean }>`
+export const Container = styled.li`
   list-style: none;
   width: 287px;
   height: 220px;
@@ -11,7 +11,7 @@ export const Container = styled.li<{ last: boolean }>`
   padding-left: 12px;
   margin-left: 13px;
   margin-right: 13px;
-  margin-bottom: ${(props) => (props.last ? '100px' : '32px')};
+  margin-bottom: 32px;
   cursor: pointer;
 
   :hover {

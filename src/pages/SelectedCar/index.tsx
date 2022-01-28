@@ -16,8 +16,10 @@ import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import ColorCarList from '../../components/ColorCarList';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../store';
+import { useNavigate } from 'react-router-dom';
 
 function SelectedCar() {
+  const navigate = useNavigate();
   const selectedCarInfo = useSelector(
     (state: RootState) => state.stock.selectedCarInfo
   );
@@ -37,7 +39,11 @@ function SelectedCar() {
         </CarHeader>
         <CarDiv>
           <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-            <BackButton>
+            <BackButton
+              onClick={() => {
+                navigate('/');
+              }}
+            >
               <BsArrowLeft
                 style={{ marginRight: 9, fontSize: 20, color: '#313136' }}
               />

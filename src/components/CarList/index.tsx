@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { CarsType } from '../../@types';
@@ -50,7 +50,7 @@ function CarList() {
       })}
       <ScrollButton
         onClick={() => {
-          console.log('oi');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         }}
         src={group}
         alt='scroll up'

@@ -16,7 +16,7 @@ import { CarCardProps } from '../../@types';
 
 function CarCard(props: CarCardProps) {
   return (
-    <Container last={props.last} onClick={() => props.onClick()}>
+    <Container onClick={() => props.onClick()}>
       <CardHeader>
         <div>
           <CarBrand>{props.brand}</CarBrand>

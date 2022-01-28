@@ -7,7 +7,7 @@ type carType = {
   price: number;
   image: string;
   logo: string;
-  colors: IColors[];
+  colors: any[];
 };
 
 interface SelectedCarInfoAction {

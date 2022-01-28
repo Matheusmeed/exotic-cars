@@ -3,12 +3,17 @@ import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../store';
 import { setCarColor } from '../../store/Stock.store';
+import { useEffect } from 'react';
 
 function ColorCarList() {
   const dispatch = useDispatch();
   const selectedCarInfo = useSelector(
     (state: RootState) => state.stock.selectedCarInfo
   );
+
+  useEffect(() => {
+    console.log(selectedCarInfo.colors);
+  }, [selectedCarInfo.colors]);
 
   function renderSquare() {
     return selectedCarInfo.colors.map((el) => {
@@ -40,32 +45,18 @@ function ColorCarList() {
       <div>
         <ArrowButton
           onClick={() => {
-            dispatch(setCarColor(0));
+            dispatch(setCarColor(selectedCarInfo.colors[0].id));
           }}
         >
           <BsArrowLeft style={{ fontSize: 20, color: 'white' }} />
         </ArrowButton>
       </div>
       {renderSquare()}
-      {/* <div>
-        <Square onClick={() => dispatch(setCarColor('01'))}>
-          <img src={selectedCarInfo.colors[2].image} alt='car' />
-        </Square>
-      </div>
-      <div>
-        <MainSquare>
-          <img src={selectedCarInfo.colors[0].image} alt='car' />
-        </MainSquare>
-      </div>
-      <div>
-        <Square onClick={() => dispatch(setCarColor('02'))}>
-          <img src={selectedCarInfo.colors[1].image} alt='car' />
-        </Square>
-      </div> */}
+
       <div>
         <ArrowButton
           onClick={() => {
-            dispatch(setCarColor(2));
+            dispatch(dispatch(setCarColor(selectedCarInfo.colors[2].id)));
           }}
         >
           <BsArrowRight style={{ fontSize: 20, color: 'white' }} />
