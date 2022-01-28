@@ -131,7 +131,7 @@ export const BackButton = styled.button`
     background-color: white;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     display: none;
   }
 `;
