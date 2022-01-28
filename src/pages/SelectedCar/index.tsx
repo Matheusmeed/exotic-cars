@@ -1,5 +1,3 @@
-import React, { useEffect } from 'react';
-import Header from '../../components/Header';
 import './styles';
 import {
   BackButton,
@@ -12,11 +10,11 @@ import {
   InfoDiv,
   Price,
 } from './styles';
-import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
-import ColorCarList from '../../components/ColorCarList';
+import { ColorCarList, Header } from 'components';
+import { RootState } from 'store';
 import { useSelector } from 'react-redux';
-import { RootState } from '../../store';
 import { useNavigate } from 'react-router-dom';
+import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 
 function SelectedCar() {
   const navigate = useNavigate();

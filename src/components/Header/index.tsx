@@ -12,9 +12,7 @@ import {
   Title,
   Title2,
 } from './styles';
-import locationIcon from '../../assets/icons/location.svg';
-import calendarIcon from '../../assets/icons/calendar.svg';
-import searchIcon from '../../assets/icons/search.svg';
+import { locationIcon, calendarIcon, searchIcon } from 'assets';
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import { BsSearch } from 'react-icons/bs';
 

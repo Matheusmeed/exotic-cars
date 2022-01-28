@@ -1,6 +1,5 @@
 import { Container } from './styles';
-import CarList from '../../components/CarList';
-import Header from '../../components/Header';
+import { CarList, Header } from 'components';
 import './styles';
 
 function Main() {

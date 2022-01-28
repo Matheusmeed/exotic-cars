@@ -12,7 +12,7 @@ import {
   OptionsButton,
 } from './styles';
 import { FaEllipsisH } from 'react-icons/fa';
-import { CarCardProps } from '../../@types';
+import { CarCardProps } from '@types';
 
 function CarCard(props: CarCardProps) {
   return (

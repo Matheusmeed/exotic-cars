@@ -1,8 +1,8 @@
-import { GlobalStyle } from './shared/styles/Global';
+import { GlobalStyle } from 'shared';
 import { BrowserRouter } from 'react-router-dom';
-import Routes from './routes';
+import Routes from 'routes';
 import { Provider } from 'react-redux';
-import store from './store';
+import store from 'store';
 
 function App() {
   return (
